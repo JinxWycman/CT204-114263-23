@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPy+JPeBd2eH3TxCLPAquw5",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JinxWycman/CT204-114263-23/blob/main/OOP%20IN%20PYTHON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Tree:\n",
+        "    def __init__(self, species, height, age):\n",
+        "        # Constructor method to initialise the tree's attributes\n",
+        "        self.species = \"mango tree\" # The species of the tree\n",
+        "        self.height = 36   # The height of the tree in meters\n",
+        "        self.age = 100 # The age of the tree in years\n",
+        "\n",
+        "class Tree:\n",
+        "    def __init__(self, species, height, age):\n",
+        "        # Constructor method to initialise the tree's attributes\n",
+        "        self.species = \"mango tree\" # The species of the tree\n",
+        "        self.height = 36   # The height of the tree in meters\n",
+        "        self.age = 100 # The age of the tree in years\n",
+        "\n",
+        "class Tree:\n",
+        "    def __init__(self, species, height, age):\n",
+        "        # Constructor method to initialise the tree's attributes\n",
+        "        self.species = \"mango tree\" # The species of the tree\n",
+        "        self.height = 36   # The height of the tree in meters\n",
+        "        self.age = 100 # The age of the tree in years\n",
+        "\n",
+        "class Tree:\n",
+        "    def __init__(self, species, height, age):\n",
+        "        # Constructor method to initialise the tree's attributes\n",
+        "        self.species = species\n",
+        "        self.height = height\n",
+        "        self.age = age\n",
+        "\n",
+        "    def describe(self):\n",
+        "        # Method to describe the tree\n",
+        "        print(f\"This is a {self.species} that is {self.height} meters tall and {self.age} years old.\")\n",
+        "        return f\"A {self.age}-year-old {self.species} tree, about {self.height} meters tall.\"\n"
+      ],
+      "metadata": {
+        "id": "QTMImt9_Obug"
+      },
+      "execution_count": 28,
+      "outputs": []
+    }
+  ]
+}
